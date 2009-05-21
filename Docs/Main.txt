@@ -23,4 +23,4 @@ Please use the [http://www.wowace.com/projects/bigwigs-yogg-brain/tickets/ WoW A
 Please use the [http://www.wowace.com/projects/bigwigs-yogg-brain/tickets/ WoW Ace] tracker to file bug reports.
 
 == Wiki ==
-[http://www.wowwiki.com/BigWigs_YoggBrain/ WoW Wiki]
+[http://www.wowwiki.com/BigWigs_YoggBrain WoW Wiki]

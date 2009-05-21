@@ -4,6 +4,7 @@ license-output: LICENSE.txt
 
 optional-dependencies:
  - bigwigs
+ 
 
 ignore:
  - .pkgmeta
@@ -13,3 +14,4 @@ ignore:
 tools-used:
  - dlcount
  - querier
+ 

@@ -1,0 +1,15 @@
+package-as: BigWigs_Yogg_Brain
+
+license-output: LICENSE.txt
+
+optional-dependencies:
+ - bigwigs
+
+ignore:
+ - .pkgmeta
+ - .docmeta
+ - Docs
+
+tools-used:
+ - dlcount
+ - querier

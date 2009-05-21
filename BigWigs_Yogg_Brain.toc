@@ -1,0 +1,27 @@
+## Title: Big Wigs |cffff0000+|r|cffffffffYogg Brain|r
+
+## Notes: Displays the health of Yogg-Saron's brain during Phase 2 for all raid members.
+
+## Author: Ackis
+## eMail: ackis AT shaw DOT ca
+## X-Donate: Send me UDE Point codes, a Murky Code, or donate a few bucks/hours at your local animal shelter.
+
+## Interface: 30100
+## Version: 1.0
+## X-Revision: @project-revision@
+## X-Date: @file-date-iso@
+
+## X-credits: Funkydude, Saroz
+
+## X-Category: Raid
+## X-Localizations: enUS
+## X-Website: http://www.wowwiki.com/BigWigs_YoggBrain/
+## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/bigwigs-yogg-brain.aspx
+
+## X-BigWigs-LoadInZone: Ulduar
+
+## Dependencies: BigWigs
+
+## LoadOnDemand: 1
+
+BigWigs_YoggBrain.lua

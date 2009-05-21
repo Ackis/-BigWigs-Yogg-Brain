@@ -1,0 +1,26 @@
+== What it does ==
+Displays the health of Yogg-Saron's brain during Phase 2 for all raid members.
+
+== Where to get it ==
+*[http://www.wowace.com/projects/bigwigs-yogg-brain/files/ WoW Ace] - Often Beta quality
+*[http://wow.curse.com/downloads/wow-addons/details/bigwigs-yogg-brain.aspx Curse ] - Most updated stable version
+
+== How to get it to work ==
+You need to enable it in the Big Wigs options.
+
+=== Commands ===
+There is no interface, it just works.
+
+== Known Issues ==
+All known issues will be kept at the [http://www.wowace.com/projects/bigwigs-yogg-brain/tickets/ WoW Ace] tracker.
+
+Please use the [http://www.wowace.com/projects/bigwigs-yogg-brain/tickets/ WoW Ace] tracker to file bug reports.
+
+== Wish List ==
+Please use the [http://www.wowace.com/projects/bigwigs-yogg-brain/tickets/ WoW Ace] tracker to add suggestions and feature requests.
+
+== Bug Reporting ==
+Please use the [http://www.wowace.com/projects/bigwigs-yogg-brain/tickets/ WoW Ace] tracker to file bug reports.
+
+== Wiki ==
+[http://www.wowwiki.com/BigWigs_YoggBrain/ WoW Wiki]

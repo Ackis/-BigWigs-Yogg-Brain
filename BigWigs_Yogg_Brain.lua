@@ -39,17 +39,16 @@ L:RegisterTranslations("enUS", function() return {
 	["Boss Health"] = true,
 	["font"] = "Fonts\\FRIZQT__.TTF",
 } end )
-
---[[
 L:RegisterTranslations("deDE", function() return {
-	cmd = "YoggBrain",
 
-	on = "On",
-	on_desc = "Toggle BigWigs_Yogg Brain on or off.",
-	["|cff777777Unknown|r"] = true,
-	["Boss Health"] = true,
+	on = "Aktiv",
+	on_desc = "Schaltet BigWigs_Yogg Brain an und aus.",
+	["|cff777777Unknown|r"] = "|cff777777Unbekannt|r",
+		["Boss Health"] = "Lebenspunkte",
+	["Dragon"] = "Drachen",
+	["Friendly"] = "Freundlich",
 } end )
---]]
+
 L:RegisterTranslations("frFR", function() return {
 	on = "Actif",
 	on_desc = "Active ou non BigWigs_Yogg Brain.",
@@ -70,7 +69,6 @@ L:RegisterTranslations("esES", function() return {
 	["Friendly"] = true,
 } end )
 ]]--
-
 L:RegisterTranslations("koKR", function() return {
 	on = "사용",
 	on_desc = "BigWigs_Yogg Brain 켜거나 끕니다.",
@@ -80,7 +78,6 @@ L:RegisterTranslations("koKR", function() return {
 	["Friendly"] = "우호적",
 	["font"] = "Fonts\\2002.TTF",
 } end )
-
 --卡雷苟斯
 L:RegisterTranslations("zhCN", function() return {
 	on = "打开",

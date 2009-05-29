@@ -28,17 +28,11 @@ local UnitExists = UnitExists
 --      Localization      --
 ----------------------------
 
-L:RegisterTranslations("enUS", function() return {
+L:RegisterTranslations("enUS", function() return
 
-	cmd = "YoggBrain",
-	font = "Fonts\\FRIZQT__.TTF",
+--@localization(locale="enUS", format="lua_table", handle-unlocalized="english", escape-non-ascii=false, same-key-is-true=true)@
 
-	on = "On",
-	on_desc = "Toggle BigWigs_Yogg Brain on or off.",
-	["|cff777777Unknown|r"] = true,
-	["Boss Health"] = true,
-
-} end )
+end )
 
 L:RegisterTranslations("deDE", function() return {
 

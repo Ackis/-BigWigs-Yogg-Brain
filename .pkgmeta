@@ -4,7 +4,6 @@ license-output: LICENSE.txt
 
 optional-dependencies:
  - bigwigs
- 
 
 ignore:
  - .pkgmeta

@@ -4,8 +4,6 @@
 Yogg Brain
 
 File date: @file-date-iso@ 
-File revision: @file-revision@ 
-Project revision: @project-revision@
 Project version: @project-version@
 
 Author: Ackis
@@ -31,83 +29,96 @@ local UnitExists = UnitExists
 ----------------------------
 
 L:RegisterTranslations("enUS", function() return {
+
 	cmd = "YoggBrain",
+	font = "Fonts\\FRIZQT__.TTF",
 
 	on = "On",
 	on_desc = "Toggle BigWigs_Yogg Brain on or off.",
 	["|cff777777Unknown|r"] = true,
 	["Boss Health"] = true,
-	["font"] = "Fonts\\FRIZQT__.TTF",
+
 } end )
+
 L:RegisterTranslations("deDE", function() return {
 
 	on = "Aktiv",
 	on_desc = "Schaltet BigWigs_Yogg Brain an und aus.",
 	["|cff777777Unknown|r"] = "|cff777777Unbekannt|r",
-		["Boss Health"] = "Lebenspunkte",
-	["Dragon"] = "Drachen",
-	["Friendly"] = "Freundlich",
+	["Boss Health"] = "Lebenspunkte",
+
 } end )
 
 L:RegisterTranslations("frFR", function() return {
+
 	on = "Actif",
 	on_desc = "Active ou non BigWigs_Yogg Brain.",
 	["|cff777777Unknown|r"] = "|cff777777Inconnu|r",
 	["Boss Health"] = "Vie des boss",
-	["Dragon"] = "Dragon",
-	["Friendly"] = "Amical",
+
 } end )
+
 --[[
 L:RegisterTranslations("esES", function() return {
-	cmd = "YoggBrain",
 
 	on = "On",
 	on_desc = "Toggle BigWigs_Yogg Brain on or off.",
 	["|cff777777Unknown|r"] = true,
 	["Boss Health"] = true,
-	["Dragon"] = true,
-	["Friendly"] = true,
+
 } end )
 ]]--
+
+--[[
+L:RegisterTranslations("esMX", function() return {
+
+	on = "On",
+	on_desc = "Toggle BigWigs_Yogg Brain on or off.",
+	["|cff777777Unknown|r"] = true,
+	["Boss Health"] = true,
+
+} end )
+]]--
+
 L:RegisterTranslations("koKR", function() return {
+
 	on = "사용",
 	on_desc = "BigWigs_Yogg Brain 켜거나 끕니다.",
 	["|cff777777Unknown|r"] = "|cff777777알 수 없음|r",
 	["Boss Health"] = "보스 생명력",
-	["Dragon"] = "용",
-	["Friendly"] = "우호적",
-	["font"] = "Fonts\\2002.TTF",
+	font = "Fonts\\2002.TTF",
+
 } end )
+
 --卡雷苟斯
 L:RegisterTranslations("zhCN", function() return {
+
 	on = "打开",
 	on_desc = "切换BigWigs_YoggBrainh卡雷苟斯生命监视模块.",
 	["|cff777777Unknown|r"] = "|cff777777未知|r",
 	["Boss Health"] = "Boss生命值",
-	["Dragon"] = "龙",
-	["Friendly"] = "友好",
-	["font"] = "Fonts\\ZYKai_T.TTF",
+	font = "Fonts\\ZYKai_T.TTF",
+
 } end )
---[[
+
 L:RegisterTranslations("zhTW", function() return {
+
 	on = "啟用",
 	on_desc = "Toggle BigWigs_Yogg Brain on or off.",
 	["|cff777777Unknown|r"] = "|cff777777未知|r",
 	["Boss Health"] = "BOSS生命值",
-	["Dragon"] = "龍",
-	["Friendly"] = "友好",
-	["font"] = "Fonts\\bHEI01B.TTF",
+	font = "Fonts\\bHEI01B.TTF",
+
 } end )
-]]--
+
 --[[
 L:RegisterTranslations("ruRU", function() return {
+
 	on = "On",
 	on_desc = "Toggle BigWigs_Yogg Brain on or off.",
-	["|cff777777Unknown|r"] = "|cff777777Unknown|r",
-	["Boss Health"] = "Boss Health",
-	["Dragon"] = "Dragon",
-	["Friendly"] = "Friendly",
-	["font"] = "Fonts\\FRIZQT__.TTF",
+	["|cff777777Unknown|r"] = true,
+	["Boss Health"] = true,
+
 } end )
 ]]--
 

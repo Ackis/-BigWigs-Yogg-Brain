@@ -127,7 +127,7 @@ mod.synctoken = name
 mod.zonename = BZ["Ulduar"]
 mod.enabletrigger = {boss, sara, brain}
 mod.toggleoptions = {"on"}
-mod.revision = 1
+mod.revision = 5
 mod.external = true
 
 ------------------------------

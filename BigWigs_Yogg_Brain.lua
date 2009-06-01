@@ -13,7 +13,9 @@ Author: Ackis
 
 local name = "Yogg Brain"
 local L = AceLibrary("AceLocale-2.2"):new("BigWigs"..name)
-local boss = BB["Brain of Yogg-Saron"]
+local sara = BB["Sara"]
+local boss = BB["Yogg-Saron"]
+local brain = BB["Brain of Yogg-Saron"]
 local LBW = AceLibrary("AceLocale-2.2"):new("BigWigs"..boss)
 
 local BWYoggBrain = nil
@@ -123,7 +125,7 @@ L:RegisterTranslations("ruRU", function() return {
 local mod = BigWigs:NewModule(name)
 mod.synctoken = name
 mod.zonename = BZ["Ulduar"]
-mod.enabletrigger = boss
+mod.enabletrigger = {boss, sara, brain}
 mod.toggleoptions = {"on"}
 mod.revision = 1
 mod.external = true
@@ -162,7 +164,7 @@ function mod:CHAT_MSG_MONSTER_YELL(msg)
 		else
 			BWYoggBrain:Show()
 			-- Set the health to 100% at the start
-			BWYoggBrain.text1:SetText("|cffff0000" .. boss .."): 100%")
+			BWYoggBrain.text1:SetText("|cffff0000" .. brain .."): 100%")
 		end
 
 		self:ScheduleRepeatingEvent("BWYoggBrainCheck", self.Update, 1, self)
@@ -196,7 +198,7 @@ end
 function mod:UpdateHealthText()
 	if not BWYoggBrain then return end
 
-	BWYoggBrain.text1:SetText("|cffff0000" .. boss .. (BrainHealth and BrainHealth .. "%" or "?"))
+	BWYoggBrain.text1:SetText("|cffff0000" .. brain .. (BrainHealth and BrainHealth .. "%" or "?"))
 
 end
 
@@ -206,7 +208,7 @@ function mod:Update()
 
 		local unitidtarget = "raid" .. i .. "target"
 		if UnitExists(unitidtarget) then
-			if UnitName(unitidtarget) == boss then
+			if UnitName(unitidtarget) == brain then
 				if UnitIsEnemy("player", unitidtarget) then
 					self:Sync("YoggHealth", ("%.1f"):format(UnitHealth(unitidtarget)/UnitHealthMax(unitidtarget)*100))
 				end

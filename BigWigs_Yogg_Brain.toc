@@ -4,10 +4,13 @@
 
 ## Author: Ackis
 ## eMail: ackis AT shaw DOT ca
-## X-Donate: Send me UDE Point codes, a Murky Code, or donate a few bucks/hours at your local animal shelter.
+## X-Author-Faction: Horde
+## X-Author-Server: Thunderlord US
 
-## Interface: 30100
-## Version: 1.1
+## X-Donate: http://www.curseforge.com/projects/bigwigs-yogg-brain/#w_donations
+
+## Interface: 30200
+## Version: 1.11
 ## X-Revision: @project-revision@
 ## X-Date: @file-date-iso@
 
